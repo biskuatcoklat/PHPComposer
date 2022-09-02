@@ -1,0 +1,19 @@
+{
+    "name": "biskuatcoklat/belajar-composer-library",
+    "description": "Library di Composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Biskuatcoklat\\BelajarComposerLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "biskuatcoklat",
+            "email": "wahyuandhika910@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
